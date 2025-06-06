@@ -22,9 +22,10 @@ To analyze survey responses and **identify which features (e.g., satisfaction wi
 - Built a logistic regression model to predict **high vs. low NPS** categories.
 - Evaluated model coefficients to interpret which factors have the strongest positive or negative impact.
 
-### 3. Visualization 
-- Generated charts to visualize key relationships and model outputs.
-
+### 3. NPS per Answer Analysis (`graph_nieder.ipynb`)
+- Calculated NPS **filtered by each answer to each survey question**.
+- This step reveals how individual answers relate to promoter, passive, or detractor status.
+- It helps validate model insights and gives a clearer view of how each answer influences customer sentiment.
 ---
 
 ## ⚠️ Known Issues & To-Do
