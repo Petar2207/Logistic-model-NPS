@@ -46,6 +46,16 @@ To analyze survey responses and **identify which features (e.g., satisfaction wi
 - **Languages**: Python
 - **Libraries**: `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`
 
+## 📜 License
+
+This project is licensed under the **MIT License** — free to use and modify.
+
+---
+
+## 👤 Author
+
+Petar Rajic
+
 Install required libraries with:
 
 ```bash
