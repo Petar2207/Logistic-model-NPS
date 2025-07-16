@@ -17,7 +17,7 @@ To analyze survey responses and **identify which features (e.g., satisfaction wi
 - One-hot encoded categorical variables.
 - Standardized numerical features to ensure comparability.
 - Detected potential reverse-coded questions — **further review needed**
-🔄 Automated Preprocessing Added:
+- 🔄 Automated Preprocessing Added:
 A new automated preparation pipeline is included via the file prep_auto_github. This script uses a supplementary file question_sheet to dynamically:
 Detect question types (e.g., Likert scale, binary, categorical)
 ### 2. Model Building 
