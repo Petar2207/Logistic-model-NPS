@@ -18,18 +18,12 @@ To analyze survey responses and **identify which features (e.g., satisfaction wi
 - Standardized numerical features to ensure comparability.
 - Detected potential reverse-coded questions — **further review needed**
 - 🔄 Automated Preprocessing Added:
-A new automated preparation pipeline is included via the file prep_auto_github. This script uses a supplementary file question_sheet to dynamically:
+A new automated preparation pipeline is included to dynamically:
 Detect question types (e.g., Likert scale, binary, categorical)
 ### 2. Model Building 
 - Standardized numerical features to ensure comparability.
 - Built a logistic regression model to predict **high vs. low NPS** categories.
-- Evaluated model coefficients to interpret which factors have the strongest positive or negative impact.
 
-### 3. NPS per Answer Analysis (`graph_nieder.ipynb`)
-- Calculated NPS **filtered by each answer to each survey question**.
-- This step reveals how individual answers relate to promoter, passive, or detractor status.
-- It helps validate model insights and gives a clearer view of how each answer influences customer sentiment.
----
 
 ## ⚠️ Known Issues & To-Do
 
